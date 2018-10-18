@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded",event=>{
         .then(product => {
              product.forEach(doc => {
                 data=doc.data();
+                document.write(`<tr><td>${data.Model}</td> <td>${data.MPG}</td><td>${data.Cylinder}</td> <td>${data.Displacement}</td><td>${data.Horsepower}</td> <td>${data.Weight}</td><td>${data.Acceleration}</td> <td>${data.Year}</td><td>${data.Origin}</td> </tr>`);
              })
         })
 });

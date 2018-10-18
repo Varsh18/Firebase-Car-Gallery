@@ -5,4 +5,7 @@ document.addEventListener("DOMContentLoaded",event=>{
    const carRef=db.collection('cars');
   const query=carRef.orderBy('Model','asc')
   query.get()
+        .then(product => {
+
+        })
 });

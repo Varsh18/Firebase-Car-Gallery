@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded",event=>{
   const query=carRef.orderBy('Model','asc')
   query.get()
         .then(product => {
-
+             product.forEach(doc => {
+             })
         })
 });

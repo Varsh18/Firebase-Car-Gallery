@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded",event=>{
   query.get()
         .then(product => {
              product.forEach(doc => {
+                data=doc.data();
              })
         })
 });

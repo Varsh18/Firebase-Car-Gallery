@@ -11,3 +11,6 @@ tr th,td{
   padding-right: 1em;
   font-size: 2em;
 }
+tr th:hover{
+  cursor: pointer;
+}

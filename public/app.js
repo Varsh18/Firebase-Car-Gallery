@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded",event=>{
   firebase.firestore().settings( { timestampsInSnapshots: true })
   const header=db.collection('Header');
   header.get()
-        
+  .then(product => {
+      })
         })
    const carRef=db.collection('cars');
   const query=carRef.orderBy('Model','asc')

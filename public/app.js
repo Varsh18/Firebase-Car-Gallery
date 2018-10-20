@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded",event=>{
   const db=firebase.firestore();
   firebase.firestore().settings( { timestampsInSnapshots: true })
   const header=db.collection('Header');
-  const table=document.getElementById('display');
   header.get()
   .then(product => {
     product.forEach(doc => {

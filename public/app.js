@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded",event=>{
   header.get()
   .then(product => {
     document.write(`<table>`);
-     
+    product.forEach(doc => {
+    
       })
         })
    const carRef=db.collection('cars');

@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded",event=>{
   .then(product => {
     document.write(`<table>`);
     product.forEach(doc => {
-    
+      data=doc.data();
+  
       })
         })
    const carRef=db.collection('cars');

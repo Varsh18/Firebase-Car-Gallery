@@ -11,4 +11,4 @@ The goal of the project was to use Firebase, Java Script, to create a web applic
 1. Download or clone this repository using https://github.com/Varsh18/FC-Gallery.git
 2. Download npm dependencies if not installed on your local machine
 3. On your command prompt ,run firebase server
-4. Open your browser and run localhost://5000
+4. Open your browser and run localhost:5000

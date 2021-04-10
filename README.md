@@ -8,7 +8,7 @@ The goal of the project was to use Firebase, Java Script, to create a web applic
 
 ##To run in localhost
 
-1. Download or clone this repository using https://github.com/Varsh18/FC-Gallery.git
+1. Download or clone this repository using https://github.com/Varsh18/Firebase-Car-Gallery.git
 2. Download npm dependencies if not installed on your local machine
 3. On your command prompt ,run firebase serve
 4. Open your browser and run localhost:5000

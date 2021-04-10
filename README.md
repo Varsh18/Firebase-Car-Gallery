@@ -1,4 +1,4 @@
-# Dynamic FC Gallery Project
+# Dynamic Firebase Car Gallery Project
 
 The goal of the project was to use Firebase, Java Script, to create a web application from scratch. The app should display both a filterable list of results, and also be responsive, accessible, and progressive.
 
